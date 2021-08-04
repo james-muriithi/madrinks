@@ -2,9 +2,9 @@
 .home-section{
     nav{
         background: $light;
-        min-height: 80px;
+        min-height: 70px;
         @media (max-width: $sm) {
-            min-height: 70px;
+            min-height: 60px;
         }
     }
 
