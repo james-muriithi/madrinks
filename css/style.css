@@ -16,19 +16,44 @@
 .home-section .upper-part {
   padding-left: 15px;
   padding-right: 15px;
-  height: 700px;
+  height: 620px;
   color: #f8fafc;
   padding-top: 120px;
   background: linear-gradient(180deg, rgba(51, 51, 51, 0.25) 73.92%, rgba(246, 238, 231, 0.25) 100%); }
+  @media screen and (max-width: 1113px) {
+    .home-section .upper-part {
+      padding-top: 100px; } }
+  @media screen and (max-width: 752px) {
+    .home-section .upper-part {
+      padding-top: 90px; } }
   .home-section .upper-part .hero-title {
     font-weight: 800;
     font-size: 54px;
     line-height: 63px; }
+    @media screen and (max-width: 1113px) {
+      .home-section .upper-part .hero-title {
+        font-weight: 800;
+        font-size: 45px;
+        line-height: 55px; } }
   .home-section .upper-part .hero-description {
     font-size: 22px;
     line-height: 34px; }
+    @media screen and (max-width: 1113px) {
+      .home-section .upper-part .hero-description {
+        font-size: 18px;
+        line-height: 27px; } }
+    @media screen and (max-width: 621px) {
+      .home-section .upper-part .hero-description {
+        font-size: 18px;
+        line-height: 23px; } }
   .home-section .upper-part .search {
     margin-top: 120px; }
+    @media screen and (max-width: 939px) {
+      .home-section .upper-part .search {
+        margin-top: 90px; } }
+    @media screen and (max-width: 621px) {
+      .home-section .upper-part .search {
+        margin-top: 70px; } }
   .home-section .upper-part .has-search .form-control {
     padding-right: 2.375rem;
     background: #FFC043;
@@ -58,8 +83,21 @@
     display: flex;
     align-items: center; }
 
+.home-section .lower-part {
+  margin-top: 80px;
+  color: #f8fafc;
+  font-family: "Raleway", sans-serif; }
+  .home-section .lower-part .categories .category {
+    width: 50px;
+    height: 70; }
+    .home-section .lower-part .categories .category p {
+      padding-top: 20px;
+      font-size: 18px;
+      line-height: 28px;
+      font-weight: 500; }
+
 .home-section .banner-section {
-  height: 1150px;
+  height: 880px;
   background: url(../images/banner.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -73,4 +111,6 @@ body {
   background-color: #f8fafc;
   font-family: "Raleway", sans-serif;
   line-height: 1.6;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%; }

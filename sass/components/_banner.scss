@@ -1,71 +1,119 @@
 .home-section {
-    .upper-part {
-        padding-left: 15px;
-        padding-right: 15px;
-        height: 700px;
-        color: $light;
-        padding-top: 120px;
-        background: linear-gradient(180deg, rgba(51, 51, 51, 0.25) 73.92%, rgba(246, 238, 231, 0.25) 100%);
-        .hero-title {
-            font-weight: 800;
-            font-size: 54px;
-            line-height: 63px;
-        }
-        .hero-description {
-            font-size: 22px;
-            line-height: 34px;
-        }
-
-        .search{
-            // position: absolute;
-            // bottom: 130px;
-            // width: 100%;
-            margin-top: 120px;
-        }
-
-        .has-search {
-            .form-control {
-                padding-right: 2.375rem;
-                background: $primary;
-                border-color: $primary;
-                color: $placeholder-color;
-                font-weight: 600;
-                font-size: 18px;
-                height: 51px;
-                width: 321px;
-                font-family: $font-family;
-                &:active,
-                &:focus {
-                    border-color: $primary;
-                    box-shadow: none;
-                }
-                &::placeholder {
-                    color: $placeholder-color;
-                    font-weight: 600;
-                    font-size: 18px;
-                }
-            }
-
-            .form-control-feedback {
-                position: absolute;
-                z-index: 10;
-                width: 2.375rem;
-                height: 100%;
-                line-height: 2.375rem;
-                text-align: center;
-                pointer-events: none;
-                right: 0;
-                display: flex;
-                align-items: center;
-            }
-        }
+  .upper-part {
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 620px;
+    color: $light;
+    padding-top: 120px;
+    background: linear-gradient(
+      180deg,
+      rgba(51, 51, 51, 0.25) 73.92%,
+      rgba(246, 238, 231, 0.25) 100%
+    );
+    @media screen and (max-width: 1113px) {
+      padding-top: 100px;
     }
-    .banner-section {
-        height: 1150px;
-        background: url(../images/banner.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        margin-top: 80px;
+    @media screen and (max-width: 752px) {
+      padding-top: 90px;
     }
+    .hero-title {
+      font-weight: 800;
+      font-size: 54px;
+      line-height: 63px;
+      @media screen and (max-width: 1113px) {
+        font-weight: 800;
+        font-size: 45px;
+        line-height: 55px;
+      }
+    }
+    .hero-description {
+      font-size: 22px;
+      line-height: 34px;
+      @media screen and (max-width: 1113px) {
+        font-size: 18px;
+        line-height: 27px;
+      }
+      @media screen and (max-width: 621px) {
+        font-size: 18px;
+        line-height: 23px;
+      }
+    }
+
+    .search {
+      // position: absolute;
+      // bottom: 130px;
+      // width: 100%;
+      margin-top: 120px;
+      @media screen and (max-width: 939px) {
+        margin-top: 90px;
+      }
+      @media screen and (max-width: 621px) {
+        margin-top: 70px;
+      }
+    }
+
+    .has-search {
+      .form-control {
+        padding-right: 2.375rem;
+        background: $primary;
+        border-color: $primary;
+        color: $placeholder-color;
+        font-weight: 600;
+        font-size: 18px;
+        height: 51px;
+        width: 321px;
+        font-family: $font-family;
+        &:active,
+        &:focus {
+          border-color: $primary;
+          box-shadow: none;
+        }
+        &::placeholder {
+          color: $placeholder-color;
+          font-weight: 600;
+          font-size: 18px;
+        }
+      }
+
+      .form-control-feedback {
+        position: absolute;
+        z-index: 10;
+        width: 2.375rem;
+        height: 100%;
+        line-height: 2.375rem;
+        text-align: center;
+        pointer-events: none;
+        right: 0;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+
+  .lower-part {
+    margin-top: 80px;
+    color: $light;
+    font-family: $font-family;
+    .categories {
+      .category {
+          width: 50px;
+          height: 70;
+        p {
+          padding-top: 20px;
+          font-size: 18px;
+          line-height: 28px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
+  .banner-section {
+    height: 880px;
+    background: url(../images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 80px;
+  }
 }
