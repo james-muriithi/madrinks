@@ -1,0 +1,31 @@
+.order-process {
+  margin-top: 100px;
+  font-family: $font-family;
+  padding-bottom: 80px;
+  h2 {
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 45px;
+  }
+  .process {
+    .process-index {
+      color: $primary;
+      font-weight: 800;
+      font-size: 38px;
+      line-height: 45px;
+    }
+    h6 {
+      font-weight: 800;
+      font-size: 24px;
+      line-height: 28px;
+      color: #252021;
+    }
+    .description {
+      padding-top: 30px;
+      font-weight: 600;
+      font-size: 17px;
+      line-height: 28px;
+      color: #9b9b9b;
+    }
+  }
+}

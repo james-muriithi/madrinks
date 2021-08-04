@@ -150,6 +150,87 @@
     border-radius: 5px;
     width: 21px; }
 
+.screenshots {
+  font-family: "Raleway", sans-serif !important;
+  background: #ededf4;
+  margin-top: 40px;
+  padding: 80px 0; }
+  .screenshots .no-drinks h3 {
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 45px;
+    color: #252021; }
+  .screenshots .no-drinks p {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #252021; }
+  .screenshots .chat .left-img {
+    width: 206px;
+    height: 406px;
+    background: url(../images/chat-left-image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left; }
+  .screenshots .chat .right-img {
+    width: 100%;
+    height: 406px;
+    background: url(../images/chat-right-image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right; }
+  .screenshots .chat .chat-left {
+    background: #461220;
+    border-radius: 39px;
+    max-width: 420px;
+    width: max-content;
+    color: #f8fafc;
+    margin-bottom: 15px;
+    padding: 24px; }
+    .screenshots .chat .chat-left span {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 24px; }
+  .screenshots .chat .chat-right {
+    background: #FFC043;
+    border-radius: 39px;
+    max-width: 420px;
+    min-width: 140px;
+    width: max-content;
+    color: #292929;
+    margin-bottom: 15px;
+    padding: 24px;
+    margin-left: auto; }
+    .screenshots .chat .chat-right span {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 24px; }
+
+.order-process {
+  margin-top: 100px;
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 80px; }
+  .order-process h2 {
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 45px; }
+  .order-process .process .process-index {
+    color: #FFC043;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 45px; }
+  .order-process .process h6 {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    color: #252021; }
+  .order-process .process .description {
+    padding-top: 30px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    color: #9b9b9b; }
+
 html,
 body {
   margin: 0;
