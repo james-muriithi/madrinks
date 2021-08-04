@@ -282,6 +282,19 @@
     line-height: 14px;
     color: #252021; }
 
+.footer {
+  font-family: "Raleway", sans-serif; }
+  .footer .left-side {
+    padding: 100px 0 50px;
+    background: #FFC043; }
+  .footer .right-side {
+    padding: 100px 0 50px; }
+  .footer .contact-details {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 29px;
+    color: #333333; }
+
 html,
 body {
   margin: 0;

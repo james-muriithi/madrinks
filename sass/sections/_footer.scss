@@ -1,0 +1,16 @@
+.footer {
+    font-family: $font-family;
+  .left-side {
+    padding: 100px 0 50px;
+    background: $primary;
+  }
+  .right-side {
+    padding: 100px 0 50px;
+  }
+  .contact-details {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 29px;
+    color: #333333;
+  }
+}
