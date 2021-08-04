@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "style": "node-sass sass/_style.scss  css/style.css"
+    "style": "node-sass sass/_style.scss  css/style.css --output-style compressed"
   },
   "keywords": [],
   "author": "",
