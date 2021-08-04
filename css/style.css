@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
 .home-section nav {
   background: #f8fafc;
   min-height: 80px; }
@@ -103,6 +104,51 @@
   background-repeat: no-repeat;
   background-position: center center;
   margin-top: 80px; }
+
+.service-details {
+  font-family: "Raleway", sans-serif !important;
+  margin-top: 80px;
+  margin-bottom: 40px; }
+  .service-details .service .service-image h2 {
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 45px;
+    color: #252021; }
+  .service-details .service .service-image img.img-service {
+    margin-top: 30px;
+    border-radius: 0px !important;
+    max-width: 400px;
+    max-height: 300px; }
+  .service-details .service .service-description p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #252021; }
+  .service-details .service .service-description .service-index {
+    font-family: Fredoka One;
+    font-weight: normal;
+    font-size: 150px;
+    line-height: 181px;
+    color: #FFC043; }
+  .service-details .service .service-description .more-details h6 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px; }
+  .service-details .service .service-description .more-details p {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;
+    color: #9b9b9b; }
+  .service-details .owl-dots .owl-dot span {
+    background: #f8fafc;
+    border: solid 1px #FFC043;
+    transition: all 0.2s; }
+  .service-details .owl-dots .owl-dot.active span,
+  .service-details .owl-dots .owl-dot:hover span {
+    background: #FFC043;
+    mix-blend-mode: normal;
+    border-radius: 5px;
+    width: 21px; }
 
 html,
 body {

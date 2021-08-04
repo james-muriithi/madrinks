@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+.service-details {
+  font-family: $font-family !important;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  .service {
+    .service-image {
+      h2 {
+        font-weight: bold;
+        font-size: 38px;
+        line-height: 45px;
+        color: #252021;
+      }
+      img.img-service {
+        margin-top: 30px;
+        border-radius: 0px !important;
+        max-width: 400px;
+        max-height: 300px;
+      }
+    }
+    .service-description {
+      p {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        color: #252021;
+      }
+      .service-index {
+        font-family: Fredoka One;
+        font-weight: normal;
+        font-size: 150px;
+        line-height: 181px;
+        color: $primary;
+      }
+      .more-details {
+        h6 {
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 28px;
+        }
+        p {
+          font-weight: 600;
+          font-size: 17px;
+          line-height: 23px;
+          color: #9b9b9b;
+        }
+      }
+    }
+  }
+  .owl-dots .owl-dot span{
+    background: $light;
+    border: solid 1px $primary;
+    transition: all 0.2s;
+  }
+
+  .owl-dots .owl-dot.active span,
+  .owl-dots .owl-dot:hover span {
+    background: $primary;
+    mix-blend-mode: normal;
+    border-radius: 5px;
+    width: 21px;
+  }
+}
