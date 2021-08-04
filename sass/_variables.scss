@@ -1,0 +1,47 @@
+// Body
+$light: #f8fafc;
+$body-bg: $light;
+
+// Typography
+$font-family: 'Raleway', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+//screen sizes
+$sm: 576px;
+$md: 768px;
+$l: 992px;
+$xl: 1200px;
+
+
+$primary: #FFC043;
+$placeholder-color: #333333;
+// dark version
+
+$dark-bg: #292929;
+$dark-forground: #202020;
+
+$dark-heading: #d8d8d8;
+
+$theme-colors: (
+  primary: $primary,
+//   secondary: $secondary,
+//   success: $success,
+//   info: $info,
+//   warning: $warning,
+//   danger: $danger,
+//   light: $light,
+//   dark: $dark
+) !default;

@@ -1,0 +1,18 @@
+// navbar
+.home-section{
+    nav{
+        background: $light;
+        min-height: 80px;
+        @media (max-width: $sm) {
+            min-height: 70px;
+        }
+    }
+
+    .playstore-img{
+        max-width: 158px;
+        max-height: 40px;
+        @media (max-width: $sm) {
+            min-width: 80px;
+        }
+    }
+}
