@@ -5,7 +5,10 @@ body {
     background-color: $body-bg;
     font-family: $font-family;
     line-height: $line-height-base;
-    overflow-x: hidden;
     width: 100%;
     height: 100%;
+}
+
+body{
+    overflow-x: hidden;
 }
