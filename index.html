@@ -26,6 +26,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/style.css" />
 
     <meta name="theme-color" content="#f8fafc" />
@@ -34,9 +41,23 @@
       content="Don't let the party stop because of drinks. Order your drinks
     with us today and continue enjoying yourself."
     />
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/images/favicon/favicon-16x16.png"
+    />
     <link rel="manifest" href="/images/favicon/site.webmanifest" />
   </head>
   <body>
@@ -152,7 +173,7 @@
           </div>
         </div>
       </section>
-      <section class="service-details">
+      <section class="service-details" data-aos="fade-up">
         <div class="container">
           <div class="services owl-carousel owl-theme">
             <div class="item row service">
@@ -240,7 +261,7 @@
         </div>
       </section>
 
-      <section class="screenshots">
+      <section class="screenshots" data-aos="fade-right">
         <div>
           <div class="row no-drinks">
             <div class="col-md-3 offset-md-3">
@@ -282,7 +303,7 @@
         </div>
       </section>
 
-      <section class="order-process">
+      <section class="order-process" data-aos="fade-up">
         <div class="container">
           <div class="text-center">
             <h2>You’re steps away from enjoying yourself</h2>
@@ -315,7 +336,7 @@
           </div>
         </div>
       </section>
-      <section class="testimonial-grid">
+      <section class="testimonial-grid" data-aos="fade-right">
         <div>
           <div class="row">
             <div class="col-md-4 grid-image">
@@ -378,7 +399,7 @@
           </div>
         </div>
       </section>
-      <footer class="footer">
+      <footer class="footer" data-aos="fade-up">
         <div class="row">
           <div
             class="
@@ -436,10 +457,23 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
   </body>
 </html>
 
 <script>
+  AOS.init({
+    offset: 200,
+    mirror: false,
+    delay: 50,
+    duration: 1000,
+    disable: "phone",
+  });
   $(document).ready(function () {
     $(".categories").owlCarousel({
       navigation: false,
